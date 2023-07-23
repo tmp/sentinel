@@ -10,7 +10,9 @@ i initially made this bot for a specific server i'm in where we need to manage a
 3. `git clone https://github.com/tmp/sentinel`
 4. `pip install discord`
 5. edit `bot_config.py` with the bot token
-6. `python3 sentinel.py`
+6. `touch sentinel.sqlite3`
+7. add your user ID to the admin_users table (can use [DB Browser for SQLite](https://sqlitebrowser.org/))
+8. `python3 sentinel.py`
 
 ### configure the bot
 1. invite the bot to a server
